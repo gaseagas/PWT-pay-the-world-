@@ -1,1 +1,0 @@
-# PWT-pay-the-world-

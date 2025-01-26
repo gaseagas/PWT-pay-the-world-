@@ -1,0 +1,154 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+/* Header Styling */
+#header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+/* Tokenomics Section */
+#tokenomics {
+    background-color: #222;
+    padding: 50px;
+    text-align: center;
+}
+
+.tokenomics-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.box h3 {
+    color: #61dafb;
+    margin-bottom: 10px;
+}
+
+.box p, .box ul {
+    color: #fff;
+}
+
+/* Marketplace Section */
+#marketplace {
+    background-color: #333;
+    padding: 50px;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    background-color: #444;
+    width: 280px;
+    margin: 15px;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-box:hover {
+    transform: scale(1.05);
+}
+
+.product-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-name {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.price {
+    color: #ffeb3b;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.buy-button {
+    background-color: #61dafb;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.buy-button:hover {
+    background-color: #21a1f1;
+}
+
+/* Footer */
+footer {
+    background-color: #282c34;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.scroll-top {
+    background-color: #61dafb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.scroll-top:hover {
+    background-color: #21a1f1;
+}
