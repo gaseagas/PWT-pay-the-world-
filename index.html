@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayTheWorld (PTW) Meme Coin</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <div class="hero-container">
+            <img src="images/B912EEF4-44F8-4D76-A166-DC0FD57DA369.png" alt="Hero Image" class="hero-image">
+            <div class="overlay">
+                <h1 data-aos="fade-up" data-aos-duration="1000">Pay The World (PTW)</h1>
+                <p data-aos="fade-up" data-aos-duration="1500">A New Era of Global Transactions</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Interactive Tokenomics Section -->
+    <section id="tokenomics">
+        <h2>Tokenomics</h2>
+        <div class="tokenomics-container">
+            <div class="box">
+                <h3>Total Supply</h3>
+                <p>800,000,000 PTW</p>
+            </div>
+            <div class="box">
+                <h3>Initial Distribution</h3>
+                <ul>
+                    <li>50% Public Sale (400,000,000 PTW)</li>
+                    <li>20% Team and Advisors (160,000,000 PTW)</li>
+                    <li>15% Charity Fund (120,000,000 PTW)</li>
+                    <li>10% Liquidity Pool (80,000,000 PTW)</li>
+                    <li>5% Marketing (40,000,000 PTW)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section (For transactions and uploads) -->
+    <section id="marketplace">
+        <h2>Marketplace</h2>
+        <div class="product-container">
+            <div class="product-box" data-aos="fade-up">
+                <img src="images/24450C5F-4A86-4047-A13D-9AB6ACBABBD3.png" alt="Product Image">
+                <p class="product-name">Exclusive NFT</p>
+                <p class="price">Price: 100 PTW</p>
+                <button class="buy-button" onclick="processTransaction()">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 PayTheWorld. All rights reserved.</p>
+            <button class="scroll-top" onclick="scrollToTop()">Back to Top</button>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll to Top Functionality
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Placeholder for transaction process
+        function processTransaction() {
+            alert('Processing transaction...');
+            // Integrate actual payment API or backend here
+        }
+    </script>
+
+    <script>
+        AOS.init(); // Initialize AOS (Animate on Scroll)
+    </script>
+
+</body>
+</html>
